@@ -86,23 +86,38 @@ h1 {
     margin: 22px 0 18px 0;
 }
 
-.button-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 8px;
-    max-width: 200px;
+.d-pad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    max-width: 180px;
     margin: 0 auto;
 }
 
-.number-btn {
-    font-size: 1.2rem;
-    padding: 15px;
-    width: 100%;
-    aspect-ratio: 2/1;
+.d-pad-middle {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.d-pad-center {
+    width: 40px;
+    height: 40px;
+    background: rgba(220, 38, 38, 0.1);
+    border-radius: 8px;
+}
+
+.d-pad-btn {
+    font-size: 1.5rem;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0;
+    border-radius: 8px;
 }
 .data-section {
     background: linear-gradient(90deg, #f1f5f9 80%, #e0e7ff 100%);
