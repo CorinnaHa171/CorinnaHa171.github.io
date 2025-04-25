@@ -14,11 +14,14 @@
         <div id="status" class="status disconnected">Nicht verbunden</div>
         <button id="connectBtn" class="btn primary">Mit Micro:bit verbinden</button>
         <div class="controls">
-            <div class="button-grid">
-                <button id="send1" class="btn number-btn">1</button>
-                <button id="send2" class="btn number-btn">2</button>
-                <button id="send3" class="btn number-btn">3</button>
-                <button id="send4" class="btn number-btn">4</button>
+            <div class="d-pad">
+                <button id="send1" class="btn d-pad-btn up">↑</button>
+                <div class="d-pad-middle">
+                    <button id="send4" class="btn d-pad-btn left">←</button>
+                    <div class="d-pad-center"></div>
+                    <button id="send2" class="btn d-pad-btn right">→</button>
+                </div>
+                <button id="send3" class="btn d-pad-btn down">↓</button>
             </div>
         </div>
         <div class="data-section">
